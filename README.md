@@ -16,14 +16,14 @@ This project is designed to demonstrate SQL skills and techniques typically used
 -- **Database Creation: The project starts by creating a database named p1_retail_db.
 -- **Table Creation: A table named retail_sales is created to store the sales data. The table structure includes columns for transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, cost of goods sold (COGS), and total sale amount.
 ## 2. Data Exploration & Cleaning
--- **Record Count: Determine the total number of records in the dataset.
--- **Customer Count: Find out how many unique customers are in the dataset.
--- **Category Count: Identify all unique product categories in the dataset.
--- **Null Value Check: Check for any null values in the dataset and delete records with missing data.
+-- Record Count: Determine the total number of records in the dataset.
+-- Customer Count: Find out how many unique customers are in the dataset.
+-- Category Count: Identify all unique product categories in the dataset.
+-- Null Value Check: Check for any null values in the dataset and delete records with missing data.
 ## 3. Data Analysis & Findings
  The following SQL queries were developed to answer specific business questions:
 
--- **1.Write a SQL query to retrieve all columns for sales made on '2022-11-05:
+### 1.Write a SQL query to retrieve all columns for sales made on '2022-11-05:
 SELECT *
 FROM retail_sales
 WHERE sale_date = '2022-11-05';
