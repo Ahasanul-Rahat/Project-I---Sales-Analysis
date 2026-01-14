@@ -40,13 +40,15 @@ WHERE
     AND
     quantity >= 4
 ```
-Write a SQL query to calculate the total sales (total_sale) for each category.:
+## Write a SQL query to calculate the total sales (total_sale) for each category.:
+```
 SELECT 
     category,
     SUM(total_sale) as net_sale,
     COUNT(*) as total_orders
 FROM retail_sales
-GROUP BY 1
+GROUP BY 1;
+```
 Write a SQL query to find the average age of customers who purchased items from the 'Beauty' category.:
 SELECT
     ROUND(AVG(age), 2) as avg_age
